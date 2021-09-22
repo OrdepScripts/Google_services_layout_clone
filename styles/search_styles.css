@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: default;
+}
+
+
+.image_profile {
+    height: 32px;
+    width: 32px;
+    border-radius: 50px;
+}
+
+.app_icon{
+    fill:rgb(63, 62, 62);  
+}
+
+.image_profile,.app_icon{
+    cursor: pointer;
+}
+
+a:hover{
+text-decoration: underline;
+}
+
+.app_icon{
+    height: 24px;
+    width: 24px;
+}
+
+
+.header{
+   
+    font-weight: 400;
+    font-size: 14px;
+    color: #222222;
+    font-style: normal;
+
+    margin-top: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 70px;
+    height: 48px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-content: center;
+    
+   
+}
+
+a{
+  color: rgb(63, 62, 62);  
+}
+
+.nav-1{
+    display: flex;
+    gap: 10px;
+}
+
+.nav-2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-content {
+    
+    flex: content;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.gogle_leters{
+    display: flex;
+    font-size: 70px;
+    font-weight: 700;
+    gap: 5px;
+    margin-bottom: 38px;
+}
+#G,#g{color: #4286f5;}
+#o,#e{color: #ea4235;}
+#l{color: #34a853;}
+#o_o{color: #fabc06;}
+
+.search_itens{
+
+    cursor: context-menu;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    border-style: solid ;
+    border-width: .5px;
+    border-color: rgb(218, 229, 238);
+    width: 584px;
+    height: 46px;
+    margin-bottom: 25px;
+   
+
+}
+
+.search_icon{
+    height: 15px;
+    margin-left: 10px;
+ 
+}
+.submit-buttons{
+
+    gap: 10px;
+    display: flex;
+    margin-bottom: 31px;
+    
+}
+
+#button-1:first-child{
+    width: 128px;
+}
+
+#button-1{
+   
+    color:  #3c4043;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 146px;
+    cursor: pointer;
+    border-style: none;
+    background-color: #f8f9fb;
+
+} 
+
+.search_voice{
+    width: 15px;
+    margin: 10px;
+    
+}
+.search_voice_1{
+    width: 30px;
+    height: 20px;
+    margin: 5px;
+    align-self: center;
+}
+
+#search{
+    width: 490px;
+    border-style: none;
+
+    /* Necessario Para impedir que as bordas da caixa de Pesquisa aparecam ao digitar*/
+    border: none;
+    outline:none;
+    
+    font-size: 15px;
+    color:rgb(63, 62, 62);
+   
+   
+}
+
+/*Eliminar o X do Botão de Pesquisa*/
+#search::-webkit-search-cancel-button{
+    visibility: hidden;
+}
+
+.footer{
+    
+    color: #70757a;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    text-align: center;
+    height: 50px;
+    background-color: #f2f2f2;
+    position: absolute;
+    
+    /*Necessario para colocar o cabeçalho fixo no final da pagina*/
+
+    width: 100%;
+    bottom:0;
+    
+}
+
+
+.footer-links-1,.footer-links-1>a{
+    background-color: #f2f2f2;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.span-2{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #3c4043;
+}
+
+.languge-span{
+    color: #1a0dab;
+}
+.languge-span:hover{
+    text-decoration: underline;
+}
