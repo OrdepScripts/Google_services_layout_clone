@@ -245,6 +245,7 @@ a{
 input:checked + .google-app-content .google-services-app{
     
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 30px;
     position: fixed;
