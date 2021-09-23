@@ -93,7 +93,8 @@ a{
 #o_o{color: #fabc06;}
 
 .search_itens{
-
+    
+    box-sizing: border-box;
     cursor: context-menu;
     display: flex;
     justify-content: space-between;
@@ -105,9 +106,18 @@ a{
     width: 584px;
     height: 46px;
     margin-bottom: 25px;
-   
+    transition: .4;
 
 }
+
+.search_itens:hover{
+
+    box-shadow: 1px 0px 2px .9px  rgb(229, 238, 241);
+    width: 590px;
+    border-style: none;
+}
+
+
 
 .search_icon{
     height: 15px;
@@ -115,19 +125,21 @@ a{
  
 }
 .submit-buttons{
-
     gap: 10px;
     display: flex;
     margin-bottom: 31px;
-    
 }
+
+
+
 
 #button-1:first-child{
     width: 128px;
+
 }
 
 #button-1{
-   
+    
     color:  #3c4043;
     display: flex;
     justify-content: center;
@@ -137,8 +149,19 @@ a{
     cursor: pointer;
     border-style: none;
     background-color: #f8f9fb;
+    transition: 0.4;
 
 } 
+
+#button-1:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color:#e1e3e7; 
+
+}
+
+
 
 .search_voice{
     width: 15px;
