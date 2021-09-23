@@ -246,7 +246,8 @@ input:checked + .google-app-content .google-services-app{
     
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+
+    
     padding: 30px;
     position: fixed;
     right: 15px;
@@ -255,6 +256,7 @@ input:checked + .google-app-content .google-services-app{
     width: 320px;
     border-style: solid;
    
+
     z-index: 9999999;
 
     border-style: solid;
@@ -263,4 +265,8 @@ input:checked + .google-app-content .google-services-app{
     border-color:#e1e3e7;
     box-shadow: 1px 2px 2px 2px  rgb(229, 238, 241);
 
+}
+
+.google-app-content .google-services-app .services-1{
+    /*display: flex;*/
 }
