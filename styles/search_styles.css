@@ -31,6 +31,7 @@ text-decoration: underline;
 .app_icon{
     height: 24px;
     width: 24px;
+   
 }
 
 
@@ -93,7 +94,7 @@ a{
 #o_o{color: #fabc06;}
 
 .search_itens{
-    
+
     box-sizing: border-box;
     cursor: context-menu;
     display: flex;
