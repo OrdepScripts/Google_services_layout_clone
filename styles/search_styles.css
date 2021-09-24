@@ -267,6 +267,46 @@ input:checked + .google-app-content .google-services-app{
 
 }
 
-.google-app-content .google-services-app .services-1{
-    /*display: flex;*/
+
+.google-services-app .services-1,.google-services-app .services-2{
+    display: flex;
+    flex-wrap: wrap;
 }
+.google-services-app .services-1 div,.google-services-app .services-2 div{
+    flex: 1 1 70px;
+}
+.google-services-app .services-1 div img,.google-services-app .services-2 div img{
+    width: 48px;
+    height: 48px;
+}
+.google-services-app{
+    overflow-y: scroll;
+    scrollbar-arrow-color:#e1e3e7; ;
+    
+}
+
+hr{
+    width:100%;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.google-services-app  .mor-for-google-workspace{
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(218, 229, 238);
+    border-radius: 5px;
+    touch-action: 0.4s;
+}
+
+.google-services-app  .mor-for-google-workspace:hover ,.google-services-app  .mor-for-google-workspace:hover p{
+    background-color:rgba(214, 231, 245, 0.699);
+
+}
+
